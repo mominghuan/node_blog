@@ -1,0 +1,9 @@
+<div class=" "><p>所有标签:</p>
+    <ul class="inline tags">
+        <% tags.forEach(function(tag, index){ %>
+        <% if(tag){ %>
+        <li><a class="tag" href="/tags/<%= tag %>"><%= tag %></a></li>
+        <% } %>
+        <% }) %>
+    </ul>
+</div>

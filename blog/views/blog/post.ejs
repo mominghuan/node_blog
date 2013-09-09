@@ -1,0 +1,63 @@
+<%- include header %>
+<div class="widget_body">
+    <form method="post" class="mypost" id="post-form" onsubmit="return checkContent();">
+        <fieldset>
+            <legend>发表文章</legend>
+            <div class="control-group">
+                <label class="control-label" for="title">标题</label>
+                <div class="controls">
+                    <input type="text" class="input-xlarge" id="title" name="title" autofocus datatype="s2-16" errormsg="标题至少2个字符,最多16个字符！"/>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="tag">标签</label>
+                <div class="controls">
+                    <input type="text" class="input-xlarge" id="tag" name="tag"/>
+                    <span class="help-inline">多个标签请用" ，"隔开</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="post">正文</label>
+                <div class="controls">
+                    <span class="help-inline" id="content-htlp"> </span>
+                    <textarea name="content" id="content"></textarea>
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">发表</button>
+            </div>
+        </fieldset>
+    </form>
+    <script type="text/javascript" src="/validate/Validform_v5.3.2_min.js"></script>
+    <link rel="stylesheet" href="/validate/css/validate.css"></link>
+    <%- include tinymce %>
+    <script>
+        $(".mypost").Validform();
+        tinymce.init({
+            selector: "textarea#content",
+            forced_root_block:false, //关掉<p>
+            elements : "content",
+            theme: "modern",
+            width: "99%",
+            height: 300,
+            plugins: [
+                "advlist autolink link image lists charmap print preview hr anchor pagebreak",
+                "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+                "save table contextmenu directionality emoticons template paste textcolor"
+            ],
+            content_css: "tinymce/js/tinymce/skins/lightgray/content.min.css",
+            toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons",
+            style_formats: [
+                {title: 'Bold text', inline: 'b'},
+                {title: 'Red text', inline: 'span', styles: {color: '#ff0000'}},
+                {title: 'Red header', block: 'h1', styles: {color: '#ff0000'}},
+                {title: 'Example 1', inline: 'span', classes: 'example1'},
+                {title: 'Example 2', inline: 'span', classes: 'example2'},
+                {title: 'Table styles'},
+                {title: 'Table row 1', selector: 'tr', classes: 'tablerow1'}
+            ]
+        });
+    </script>
+    </div>
+<%- include right %>
+<%- include footer %>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Blog</title>
+    <script type="text/javascript" src="/javascripts/jquery-2.0.3.min.js"></script>
+    <link rel="stylesheet" href="/javascripts/bootstrap/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="/javascripts/bootstrap/css/bootstrap-responsive.min.css"></link>
+
+    <link rel="stylesheet" href="/stylesheets/btc/style.css"></link>
+
+
+    <style>
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+
+        .login-form {
+            margin: 0px;
+            padding-top: 3px;
+        }
+        .login-btn {
+            margin-top: 0px;
+            margin-bottom: 3px;
+            padding-bottom: 3px;
+            padding-top: 0px;
+        }
+
+        .mynav li {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .pager {
+            margin: 5px;
+        }
+
+        hr {
+            margin: 3px auto;
+            padding: 3px 0;
+            width: 98%;
+        }
+
+        .moveDiv {
+            width: 360px;
+            height: 30px;
+            line-height: 30px;
+            background: #39C;
+            margin-top: -30px;
+            cursor: move;
+        }
+
+        .moveTxt {
+            position: absolute;
+            width: 360px;
+            height: 190px;
+            top: 40px;
+            left: 8px;
+            border: #0C6 1px solid;
+            padding-top: 30px
+        }
+    </style>
+    <script type="text/javascript">
+        //记录鼠标是否按下
+        var isClick = false;
+        //按下鼠标时候的坐标
+        var defaultX;
+        var defaultY;
+        //移动的时候的坐标
+        var mouseX;
+        var mouseY;
+        //移动层距离上边和左边的距离
+        var DivTop;
+        var DivLeft;
+
+        $(function () {
+
+            $("#spClick").click(function (e) {
+                alert("a");
+                //$(window).scrollTop(200);
+            });//spClick click end
+            //按下鼠标
+            $(".moveDiv").mousedown(function (e) {
+                isClick = true;
+                defaultX = e.pageX;
+                defaultY = e.pageY;
+                DivTop = $(".moveTxt").css("top");
+                DivLeft = $(".moveTxt").css("left");
+                DivTop = parseFloat(String(DivTop).substring(0, String(DivTop).indexOf("px")));
+                DivLeft = parseFloat(String(DivLeft).substring(0, String(DivLeft).indexOf("px")));
+                $("#spShowPageXY").html("距离上面和左边的初始化距离是" + DivTop + ":" + DivLeft);
+            }); //moveDiv click fun
+            //移动鼠标
+            $(".moveDiv").mousemove(function (e) {
+                // alert("mover");
+                mouseX = e.pageX;
+                mouseY = e.pageY;
+                $("#spShowPageXY").html("距离上面和左边的初始化距离是" + DivTop + ":" + DivLeft + "---鼠标移动时候的坐标X" + mouseX + ":Y" + mouseY);
+                if (isClick && mouseX > 0 && mouseY > 0) {
+                    $("#spShowPageXY").html("距离上面和左边的初始化距离是" + DivTop + ":" + DivLeft + "---开始移动");
+                    var newTop = parseFloat(mouseY - defaultY);
+                    var newLeft = parseFloat(mouseX - defaultX);
+                    $(".moveTxt").css({"top": newTop + DivTop});
+                    $(".moveTxt").css({"left": newLeft + DivLeft});
+                } //if end
+            });//mousemove fun end
+            //松开鼠标
+            $(".moveDiv").mouseup(function (e) {
+                isClick = false;
+                $("#spShowPageXY").html("距离上面和左边的初始化距离是" + DivTop + ":" + DivLeft + "---停止移动");
+            }); //moveDiv click fun
+        })//$end
+    </script>
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span1">
+
+                    <a href="/" class="brand">MyBlog</a>
+                </div>
+                <div class="nav-collapse span4">
+                    <ul class="nav ">
+                        <li class="active">
+                            <a href="/" tppabs=""
+                               title="首页">首 页</a>
+                        </li>
+                        <li class="">
+                            <a href="" tppabs="">Post</a>
+                        </li>
+                        <li class="">
+                            <a href="" tppabs="">新 闻</a>
+                        </li>
+                        <li class="">
+                            <a href="" tppabs="">团 队</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span7">
+                    <ul class="nav pull-right mynav">
+                        <% if(locals.user){ %>
+                        <li><a href="#"> 欢迎您 <%= locals.user.name %> </a></li>
+                        <li><a title="我的文章" href="/u/<%= user.name%>">我的文章</a></li>
+                        <li><a title="我的图片" href="/upload/upload.html">我的图片</a></li>
+                        <li><a title="聊天" target="_blank" href="/chat">聊 天</a></li>
+                        <li><a title="发表" href="/post">发 表</a></li>
+
+                        <li><a title="设置" href="/user/setting/">设 置</a></li>
+                        <li><a title="登出" href="/logout">退 出</a></li>
+                        <% } else { %>
+                        <li>
+                            <form class="form-inline login-form" method="post" action="/login">
+                                <input type="text" class="input-small" placeholder="邮件" name="name">
+                                <input type="password" class="input-small" placeholder="密码" name="password">
+                                <button type="submit" class="btn btn-link btn-small">登录</button>
+                            </form>
+                        </li>
+                        <li><a title="注册" class="btn btn-mini" style="color:#ffffff;padding:8px;margin: 6px 0 0 8px;"
+                               href="/reg">注册</a></li>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container">
+    <div class="row-fluid">
+        <div class="span8 left">
+            <article id="article">
+                <% if (locals.success) { %>
+                <div class="alert alert-success"><%= locals.success %></div>
+                <% } %>
+                <% if (locals.error) { %>
+                <div class="alert alert-error"><%= locals.error %></div>
+                <% } %>
+
+
+

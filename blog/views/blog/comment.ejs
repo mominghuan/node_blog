@@ -1,0 +1,77 @@
+<br/>
+<div class="widget_body">
+    <div style="padding: 5px 10px;">
+        <div class="">回复:</div>
+        <% post.comments.forEach(function(comment,index){ %>
+        <div class="widget_body">
+            <div class="row-fluid">网友 <a href="<%= comment.website %>"><%= comment.name %></a>
+                回复于 <%= comment.time %>
+            </div>
+            <div class="row-fluid" style="margin-top: 10px;"><%- comment.content %></div>
+        </div>
+        <br/>
+        <% }); %>
+        <form method="post" id="comment-form" onsubmit="return checkContent();">
+            <fieldset>
+                <% if(locals.user){ %>
+                <div class="control-group">
+                    <label class="control-label" for="name">姓名</label>
+
+                    <div class="controls">
+                        <input type="text" class="input-xlarge" id="name" name="name" value="<%= locals.user.name %>"/>
+                        <span class="help-inline">姓名</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="email">邮箱</label>
+
+                    <div class="controls">
+                        <input type="text" class="input-xlarge" id="email" name="email"
+                               value="<%= locals.user.email %>"/>
+                        <span class="help-inline">邮箱</span>
+                    </div>
+                </div>
+                <% } else { %>
+                <div class="control-group">
+                    <label class="control-label" for="name">姓名</label>
+
+                    <div class="controls">
+                        <input type="text" class="input-xlarge" id="name" name="name"/>
+                        <span class="help-inline">姓名</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="email">邮箱</label>
+
+                    <div class="controls">
+                        <input type="text" class="input-xlarge" id="email" name="email""/>
+                        <span class="help-inline">邮箱</span>
+                    </div>
+                </div>
+                <% } %>
+                <div class="control-group">
+                    <label class="control-label">留言</label>
+
+                    <div class="controls">
+                        <span class="help-inline" id="content-htlp"> </span>
+                        <textarea class="input-xxlarge" name="content" rows="5" cols="80"></textarea>
+                    </div>
+                </div>
+                <div class="form-actions"><input class="btn btn-primary" type="submit" value="留言"/></div>
+            </fieldset>
+        </form>
+
+    </div>
+</div>
+<script type="text/javascript" src="/validate/Validform_v5.3.2_min.js"></script>
+<link rel="stylesheet" href="/validate/css/validate.css"></link>
+<%- include tinymce %>
+<script>
+    tinymce.init({
+        selector: "textarea",
+        forced_root_block:false
+    });
+
+</script>

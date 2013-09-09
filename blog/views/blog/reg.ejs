@@ -1,0 +1,65 @@
+<%- include header %>
+<div class="widget_body">
+<form class="form-horizontal" method="post" action="/reg">
+    <fieldset>
+        <legend>用户注册</legend>
+        <div class="control-group">
+            <label class="control-label" for="name">用户名</label>
+
+            <div class="controls">
+                <input type="text" class="input-xlarge" id="name" name="name" datatype="s2-16"
+                       errormsg="用户名至少2个字符,最多16个字符！"/>
+
+                <p class="help-inline">帐户名称，2-16位</p>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="password">密码</label>
+
+            <div class="controls">
+                <input type="password" plugin="passwordStrength" class="input-xlarge inputxt" name="password"
+                       errormsg="密码至少6个字符,最多18个字符！" datatype="*6-18"/>
+
+                <div class="passwordStrength" style="display:none;"><b>密码强度：</b> <span>弱</span><span>中</span><span
+                        class="last">强</span></div>
+                <p class="help-inline">6-8位</p>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="password-repeat">确认密码</label>
+
+            <div class="controls">
+                <input type="password" class="input-xlarge" datatype="*6-18" recheck="password" errormsg="您两次输入的账号密码不一致！"/>
+
+                <p class="help-inline">再次输入密码</p>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="email">邮箱</label>
+
+            <div class="controls">
+                <input type="email" class="input-xlarge" id="email" name="email" required/>
+
+                <p class="help-inline">邮箱</p>
+            </div>
+        </div>
+
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">注册</button>
+
+        </div>
+
+    </fieldset>
+</form>
+<script type="text/javascript" src="/validate/Validform_v5.3.2_min.js"></script>
+<link rel="stylesheet" href="/validate/css/validate.css"></link>
+<script>
+    $(".form-horizontal").Validform();
+</script>
+    </div>
+<%- include right %>
+<%- include footer %>

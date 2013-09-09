@@ -1,0 +1,58 @@
+<%- include header %>
+<script src="/javascripts/jquery-validate/jquery-validate.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#login-form").validate({
+                    rules: {
+                        name: {
+                            required: true
+                        },
+                        password: {
+                            required: true
+                        }
+                    },
+                    messages: {
+                        name: {
+                            required: '请输入用户名'
+                        },
+                        password: {
+                            required: '请输入密码'
+                        }
+                    }
+                });
+            });
+
+
+        </script>
+<form id="login-form" class="form-horizontal" method="post" action="/login">
+    <fieldset>
+        <legend>用户登录</legend>
+        <div class="control-group">
+            <label class="control-label" for="name">用户名</label>
+
+            <div class="controls">
+                <input type="text" class="input-xlarge" id="name" name="name"/>
+
+                <p class="help-block">帐户名称</p>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="password">密码</label>
+
+            <div class="controls">
+                <input type="password" class="input-xlarge" id="password" name="password"/>
+
+                <p class="help-inline">密码</p>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">登录</button>
+
+        </div>
+
+    </fieldset>
+</form>
+<%- include right %>
+<%- include footer %>

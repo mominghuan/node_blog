@@ -1,0 +1,18 @@
+<script type="text/javascript" src="/tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="/tinymce/js/tinymce/langs/zh_CN.js"></script>
+        <script>
+
+            //正文判断是否为空
+            function checkContent(){
+                var content=tinyMCE.get('content').getContent();//使用tinyMCE必须使用这种方法获得内容，不然要提交2次才能获取正确值
+                if(content.length<=0){
+                    $("#content-htlp").html("<span style='color: red;'>内容不应该为空</span>");
+                    return false;
+                }else if(content.length<10){
+                    $("#content-htlp").html("<span style='color: red;'>内容长度不应少于10个字符</span>");
+                    return false;
+                }else{
+                    return true;
+                }
+            }
+        </script>

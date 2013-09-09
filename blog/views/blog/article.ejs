@@ -1,0 +1,22 @@
+<%- include header %>
+<div class="widget_body">
+    <div class="row-fluid">
+            作者：<a class="label label-success" href="/u/<%= post.userName %>"><%= post.userName %></a> |
+            日期：<%= post.time.minute %> |
+            标签：
+            <% post.tags.forEach(function(tag, index){ %>
+            <% if(tag.tag){ %>
+            <a class="label label-success" href="/tags/<%= tag.tag %>"><%= tag.tag %></a>
+            <% } %>
+            <% }) %>
+            <a class="pull-right">评论(<%= post.comments.length %>)</a>
+            <a class="pull-right">阅读(<%= post.pv %>)</a>
+        <hr/>
+    </div>
+
+    <div class="row-fluid"><h3><%= post.title %></h3></div>
+    <div class="row-fluid contents"><%- post.post %></div>
+</div>
+<%- include comment %>
+<%- include right %>
+<%- include footer %>

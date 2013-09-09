@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb9b6f95-663c-4a25-bd58-518b1c8dc105" name="Default" comment="" />
+    <ignored path="blog.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/a.coffee" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1374370031331" ignored="false" />
+    <file path="/a.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1374370044521" ignored="false" />
+    <file path="/app.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377572935384" ignored="false" />
+    <file path="/index.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377422902799" ignored="false" />
+    <file path="/package.json" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375757511195" ignored="false" />
+    <file path="/settings.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1374374102394" ignored="false" />
+    <file path="/db.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1374374425146" ignored="false" />
+    <file path="/index.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376660895606" ignored="false" />
+    <file path="/header.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377691307080" ignored="false" />
+    <file path="/reg.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377702206552" ignored="false" />
+    <file path="/login.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377075358047" ignored="false" />
+    <file path="/user.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1374383710479" ignored="false" />
+    <file path="/post.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377743650833" ignored="false" />
+    <file path="/post.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375604152044" ignored="false" />
+    <file path="/user.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376661204030" ignored="false" />
+    <file path="/comment.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1374650502207" ignored="false" />
+    <file path="/comment.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377699006317" ignored="false" />
+    <file path="/paging.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375506910523" ignored="false" />
+    <file path="/blogBiz.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377695370932" ignored="false" />
+    <file path="/m.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375182055294" ignored="false" />
+    <file path="/a.dummy" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375193398759" ignored="false" />
+    <file path="/article.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376661957785" ignored="false" />
+    <file path="/home.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375278818547" ignored="false" />
+    <file path="/blogAdmin.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375277435555" ignored="false" />
+    <file path="/archive.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375511187610" ignored="false" />
+    <file path="/tag.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376662930399" ignored="false" />
+    <file path="/home.html" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375273082031" ignored="false" />
+    <file path="/userEditPwd.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375275442956" ignored="false" />
+    <file path="/footer.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375537684713" ignored="false" />
+    <file path="/tags.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375676639570" ignored="false" />
+    <file path="/right.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377742892776" ignored="false" />
+    <file path="/userRight.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377342166285" ignored="false" />
+    <file path="/search.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376706566113" ignored="false" />
+    <file path="/404.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375600965004" ignored="false" />
+    <file path="/index.html" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377488598115" ignored="false" />
+    <file path="/base.css" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375790795718" ignored="false" />
+    <file path="/uploadImage.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377255653479" ignored="false" />
+    <file path="/server.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1375799119281" ignored="false" />
+    <file path="/uploadhandler.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377268673795" ignored="false" />
+    <file path="/filemanager.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377269876021" ignored="false" />
+    <file path="/jquery.fileupload-ui.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376114734613" ignored="false" />
+    <file path="/filehandler.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376752933592" ignored="false" />
+    <file path="/style.css" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376705677524" ignored="false" />
+    <file path="/bootstrap.min.css" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376706146858" ignored="false" />
+    <file path="/upload.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1376794719837" ignored="false" />
+    <file path="/check-form.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377075236403" ignored="false" />
+    <file path="/mkdir.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377086432671" ignored="false" />
+    <file path="/album.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377139544091" ignored="false" />
+    <file path="/main.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377403560236" ignored="false" />
+    <file path="/fileinfo.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377227528426" ignored="false" />
+    <file path="/imagemagick.js" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377261192968" ignored="false" />
+    <file path="/signin.html" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377490030069" ignored="false" />
+    <file path="/tinymce.ejs" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377748954076" ignored="false" />
+    <file path="/buttons.css" changelist="fb9b6f95-663c-4a25-bd58-518b1c8dc105" time="1377749183679" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="blog" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/jquery.fileupload-process.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/jquery.fileupload-jquery-ui.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/jquery.fileupload-image.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/jquery.fileupload-audio.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/jquery.fileupload-angular.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/jquery.fileupload.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/app.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/vendor/jquery.ui.widget.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/cors/jquery.postmessage-transport.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/upload/js/cors/jquery.xdr-transport.js" />
+        <option value="$PROJECT_DIR$/views/blog/tinymce.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/btc/buttons.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/btc/style.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/btc/j.css" />
+        <option value="$PROJECT_DIR$/views/blog/userRight.ejs" />
+        <option value="$PROJECT_DIR$/views/blog/comment.ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-v0.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-v0.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-v0.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-v0.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-v0.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-v0.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-v0.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\blog-v0.5\public\validate" />
+      <recent name="F:\blog-v0.5\public\tinymce\js\tinymce\langs" />
+      <recent name="F:\blog-v0.5\public" />
+      <recent name="F:\blog-v0.5\public\jwysiwyg" />
+      <recent name="F:\blog-v0.5\public\whsihtml5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\blog-v0.5\public\validate\css" />
+      <recent name="F:\blog-v0.2\models" />
+      <recent name="F:\blog\public" />
+      <recent name="F:\blog\views\admin\blog" />
+      <recent name="F:\blog\routes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.blog">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="blog" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.blog" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb9b6f95-663c-4a25-bd58-518b1c8dc105" name="Default" comment="" />
+      <created>1374369848072</created>
+      <updated>1374369848072</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5846154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.7692308" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21444528" sideWeight="0.93675214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20581484" sideWeight="0.427065" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2962963" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06324787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45128205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/upload/js/vendor/jquery.ui.widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9472" selection-start="9472" selection-end="9472" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/upload/js/cors/jquery.postmessage-transport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1628" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/upload/js/cors/jquery.xdr-transport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1215" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tinymce/js/tinymce/tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/btc/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="14658" selection-start="0" selection-end="18602" vertical-scroll-proportion="0.8873874" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/btc/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/search.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/right.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="92" selection-start="358" selection-end="385" vertical-scroll-proportion="0.41371158" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/userRight.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="50" selection-start="399" selection-end="399" vertical-scroll-proportion="0.47281325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/archive.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/comment.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="31" selection-start="3018" selection-end="3018" vertical-scroll-proportion="0.5253165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/validate/css/validate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/validate/Validform_v5.3.2_min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="444" selection-start="648" selection-end="648" vertical-scroll-proportion="0.32110092" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/tinymce.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="754" selection-end="754" vertical-scroll-proportion="0.63013697">
+          <folding>
+            <marker date="1377749023516" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1377749023516" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/post.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="8" selection-start="1553" selection-end="1578" vertical-scroll-proportion="0.04892368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/paging.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

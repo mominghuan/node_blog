@@ -1,0 +1,11 @@
+<%- include header %>
+<div class="widget_body">
+    <ul class="inline">
+        <% folders.forEach(function(folder,index){ %>
+        <li><a href="/<%= folder %>/upload/upload.html "> <div><img src="/album/Koala.jpg" height="100" width="80"/> </div><div class=""> <%= folder %></div></a></li>
+        <% })%>
+    </ul>
+
+</div>
+<%- include right %>
+<%- include footer %>
